@@ -1,4 +1,4 @@
-# Infiltrate Viewing
+# Better Infiltrate Viewing Experience (BIVE)
 Proof of concept for a better Infiltrate's viewing experience: Having the contestant wear a virtual reality headset and stream what they see to a larger screen for a general audience.
 
 Three main components of this proof of concept will consist of a virtual reality environment for desktop applications, an eye tracker, and a real-time render of used keyboard keys. 
