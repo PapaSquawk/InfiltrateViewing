@@ -11,3 +11,4 @@ Various applications have already attempted this idea such as the 3rd party [Vir
 
 The native Oculus SDK does allow for development for the Oculus Dash which would alleviate the issue that has been encountered within the Unity solution thus far and appears to be available in their [PC SDK toolkit](https://developer.oculus.com/documentation/native/pc/pcsdk-intro/).
 - One issue that may be encountered is that the PC SDK is only available for Windows at the moment, but virtual machines within windows can resolve this as the vast majority of contestants will use a linux distro.
+- To resolve the `ovr_Initialize failure. -3001 -- Unable to load LibOVRRT DLL` when loading the SDK, ensure you have installed the [Oculus Setup](https://www.oculus.com/download_app/?id=1582076955407037) for the Oculus App.
