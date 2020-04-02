@@ -12,3 +12,9 @@ Various applications have already attempted this idea such as the 3rd party [Vir
 The native Oculus SDK does allow for development for the Oculus Dash which would alleviate the issue that has been encountered within the Unity solution thus far and appears to be available in their [PC SDK toolkit](https://developer.oculus.com/documentation/native/pc/pcsdk-intro/).
 - One issue that may be encountered is that the PC SDK is only available for Windows at the moment, but virtual machines within windows can resolve this as the vast majority of contestants will use a linux distro.
 - To resolve the `ovr_Initialize failure. -3001 -- Unable to load LibOVRRT DLL` when loading the SDK, ensure you have installed the [Oculus Setup](https://www.oculus.com/download_app/?id=1582076955407037) for the Oculus App.
+
+## Eye Tracking Progress
+3rd party applications such as the Tobii eye tracker have a twitch extension that gives the viewing audience the option of turning on or of the eye tracker via (Tobii Ghost) [https://dashboard.twitch.tv/extensions/aug73iqv77n9asj9zoh2o0sg4d8mdr]. If this can be turned off for the contestant but still available for the audience, it may be a good solution
+
+## Screencast Key Progress
+Referencing how blender preforms their [screencasting](https://blog.r23.de/wp-content/uploads/2018/04/blender-r23-Screencast-800x480.jpg). Currently looking into how to prevent contestant from seeing the casting while retaining it for the audience.
