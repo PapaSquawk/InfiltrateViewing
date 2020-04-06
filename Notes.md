@@ -17,4 +17,8 @@ The native Oculus SDK does allow for development for the Oculus Dash which would
 3rd party applications such as the Tobii eye tracker have a twitch extension that gives the viewing audience the option of turning on or off the eye tracker via (Tobii Ghost) [https://dashboard.twitch.tv/extensions/aug73iqv77n9asj9zoh2o0sg4d8mdr]. If this can be turned off for the contestant but still available for the audience, it may be a good solution.
 
 ## Screencast Key Progress
-Referencing how blender preforms their [screencasting](https://blog.r23.de/wp-content/uploads/2018/04/blender-r23-Screencast-800x480.jpg). Currently looking into how to prevent the contestant from seeing the cast while retaining it for the audience.
+Referencing how blender preforms their [screencasting](https://blog.r23.de/wp-content/uploads/2018/04/blender-r23-Screencast-800x480.jpg). ~~Currently looking into how to prevent the contestant from seeing the cast while retaining it for the audience.~~
+
+Currently creating an application that captures each keyboard key and prints their text equivalent to a small application window. Main contention so far is how to have the application capture keys when it is not "in focus" i.e it is in the background; looking into to using hooks.
+
+
